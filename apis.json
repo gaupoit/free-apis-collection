@@ -1,0 +1,496 @@
+{
+  "meta": {
+    "title": "Free APIs Collection",
+    "description": "Curated collection of free APIs for developers",
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-04",
+    "totalApis": 52
+  },
+  "categories": [
+    {
+      "name": "Weather & Environment",
+      "slug": "weather",
+      "apis": [
+        {
+          "name": "OpenWeather",
+          "url": "https://openweathermap.org/api",
+          "description": "Current weather, forecasts, and historical data",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes"
+        }
+      ]
+    },
+    {
+      "name": "Finance & Cryptocurrency",
+      "slug": "finance",
+      "apis": [
+        {
+          "name": "CoinDesk",
+          "url": "https://api.coindesk.com/v1/bpi/currentprice.json",
+          "description": "Bitcoin Price Index in real-time",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://api.coindesk.com/v1/bpi/currentprice.json"
+        },
+        {
+          "name": "CoinGecko",
+          "url": "https://www.coingecko.com/en/api",
+          "description": "Cryptocurrency prices, market data, and exchanges",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "ExchangeRate-API",
+          "url": "https://www.exchangerate-api.com/",
+          "description": "Currency exchange rates",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes"
+        }
+      ]
+    },
+    {
+      "name": "Entertainment & Media",
+      "slug": "entertainment",
+      "apis": [
+        {
+          "name": "The Movie DB",
+          "url": "https://www.themoviedb.org/documentation/api",
+          "description": "Movies, TV shows, and actor information",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Giphy",
+          "url": "https://developers.giphy.com",
+          "description": "GIFs, stickers, and animated content",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "JokeAPI",
+          "url": "https://jokeapi.dev",
+          "description": "Programming, misc, dark, pun jokes",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Official Joke API",
+          "url": "https://official-joke-api.appspot.com/random_joke",
+          "description": "Random jokes",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://official-joke-api.appspot.com/random_joke"
+        },
+        {
+          "name": "Bored API",
+          "url": "https://www.boredapi.com/api/activity",
+          "description": "Activity suggestions when bored",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://www.boredapi.com/api/activity"
+        },
+        {
+          "name": "PokeAPI",
+          "url": "https://pokeapi.co/",
+          "description": "Pokemon data and sprites",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Open Trivia DB",
+          "url": "https://opentdb.com/api_config.php",
+          "description": "Trivia questions across categories",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Chuck Norris API",
+          "url": "https://api.chucknorris.io/",
+          "description": "Chuck Norris jokes",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Quotable",
+          "url": "https://github.com/lukePeavey/quotable",
+          "description": "Random quotes",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        }
+      ]
+    },
+    {
+      "name": "Data & Demographics",
+      "slug": "data",
+      "apis": [
+        {
+          "name": "REST Countries",
+          "url": "https://restcountries.com",
+          "description": "Country information, flags, currencies, languages",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Data USA",
+          "url": "https://datausa.io/api/data?drilldowns=Nation",
+          "description": "U.S. demographic and population data",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://datausa.io/api/data?drilldowns=Nation&measures=Population"
+        },
+        {
+          "name": "Agify.io",
+          "url": "https://agify.io",
+          "description": "Estimate age from name",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://api.agify.io?name=michael"
+        },
+        {
+          "name": "Genderize.io",
+          "url": "https://genderize.io",
+          "description": "Predict gender from name",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://api.genderize.io?name=luc"
+        },
+        {
+          "name": "Nationalize.io",
+          "url": "https://nationalize.io",
+          "description": "Infer nationality from name",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://api.nationalize.io?name=nathaniel"
+        },
+        {
+          "name": "RandomUser",
+          "url": "https://randomuser.me/",
+          "description": "Generate fake user data",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://randomuser.me/api/"
+        },
+        {
+          "name": "Universities List",
+          "url": "http://universities.hipolabs.com",
+          "description": "Universities by country",
+          "auth": "none",
+          "https": false,
+          "cors": "yes",
+          "testUrl": "http://universities.hipolabs.com/search?country=United+States"
+        },
+        {
+          "name": "Public APIs",
+          "url": "https://api.publicapis.org",
+          "description": "Directory of public APIs",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://api.publicapis.org/entries"
+        }
+      ]
+    },
+    {
+      "name": "Fun & Random",
+      "slug": "fun",
+      "apis": [
+        {
+          "name": "Cat Facts",
+          "url": "https://cat-fact.herokuapp.com",
+          "description": "Random cat facts",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://cat-fact.herokuapp.com/facts"
+        },
+        {
+          "name": "Numbers API",
+          "url": "http://numbersapi.com/",
+          "description": "Facts about numbers",
+          "auth": "none",
+          "https": false,
+          "cors": "yes"
+        },
+        {
+          "name": "Advice Slip",
+          "url": "https://api.adviceslip.com/",
+          "description": "Random life advice",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Yes No",
+          "url": "https://yesno.wtf/api",
+          "description": "Random yes/no answers with GIFs",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://yesno.wtf/api"
+        },
+        {
+          "name": "Useless Facts",
+          "url": "https://uselessfacts.jsph.pl/",
+          "description": "Random useless facts",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        }
+      ]
+    },
+    {
+      "name": "Development & Testing",
+      "slug": "development",
+      "apis": [
+        {
+          "name": "JSONPlaceholder",
+          "url": "https://jsonplaceholder.typicode.com",
+          "description": "Fake REST API for testing and prototyping",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "GitHub REST API",
+          "url": "https://docs.github.com/en/rest",
+          "description": "GitHub repositories, users, and activity",
+          "auth": "oauth",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "HTTPBin",
+          "url": "https://httpbin.org/",
+          "description": "HTTP request & response testing",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "ReqRes",
+          "url": "https://reqres.in/",
+          "description": "Fake REST API for front-end testing",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "IPify",
+          "url": "https://www.ipify.org/",
+          "description": "Get your public IP address",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://api.ipify.org?format=json"
+        },
+        {
+          "name": "IPinfo",
+          "url": "https://ipinfo.io/",
+          "description": "IP geolocation data",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://ipinfo.io/json"
+        }
+      ]
+    },
+    {
+      "name": "Science & Education",
+      "slug": "science",
+      "apis": [
+        {
+          "name": "NASA Open API",
+          "url": "https://api.nasa.gov",
+          "description": "Space imagery, Mars rover photos, asteroids",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "SpaceX API",
+          "url": "https://github.com/r-spacex/SpaceX-API",
+          "description": "SpaceX launches, rockets, and capsules",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Open Library",
+          "url": "https://openlibrary.org/developers/api",
+          "description": "Books and author information",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Wikipedia API",
+          "url": "https://www.mediawiki.org/wiki/API:Main_page",
+          "description": "Wikipedia content and search",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "arXiv API",
+          "url": "https://arxiv.org/help/api",
+          "description": "Scientific papers and preprints",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Free Dictionary",
+          "url": "https://dictionaryapi.dev/",
+          "description": "English word definitions",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        }
+      ]
+    },
+    {
+      "name": "Location & Geography",
+      "slug": "location",
+      "apis": [
+        {
+          "name": "Zippopotam",
+          "url": "https://api.zippopotam.us",
+          "description": "Postal code lookup",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://api.zippopotam.us/us/33162"
+        },
+        {
+          "name": "IP-API",
+          "url": "https://ip-api.com/",
+          "description": "IP-based location data",
+          "auth": "none",
+          "https": false,
+          "cors": "yes"
+        },
+        {
+          "name": "OpenSky Network",
+          "url": "https://opensky-network.org/apidoc/",
+          "description": "Live flight tracking data",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Open Charge Map",
+          "url": "https://openchargemap.org/site/develop/api",
+          "description": "EV charging station locations",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        }
+      ]
+    },
+    {
+      "name": "Food & Lifestyle",
+      "slug": "food",
+      "apis": [
+        {
+          "name": "OpenFoodFacts",
+          "url": "https://world.openfoodfacts.org/data",
+          "description": "Food products and nutritional data",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "TheMealDB",
+          "url": "https://www.themealdb.com/api.php",
+          "description": "Recipes and meal data",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "TheCocktailDB",
+          "url": "https://www.thecocktaildb.com/api.php",
+          "description": "Cocktail recipes",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "Trefle",
+          "url": "https://trefle.io",
+          "description": "Plants database and botanical data",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes"
+        }
+      ]
+    },
+    {
+      "name": "Animals",
+      "slug": "animals",
+      "apis": [
+        {
+          "name": "Dog CEO",
+          "url": "https://dog.ceo/dog-api/",
+          "description": "Random dog images",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://dog.ceo/api/breeds/image/random"
+        },
+        {
+          "name": "The Cat API",
+          "url": "https://thecatapi.com/",
+          "description": "Cat images and breeds",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "The Dog API",
+          "url": "https://thedogapi.com/",
+          "description": "Dog images and breed information",
+          "auth": "apiKey",
+          "https": true,
+          "cors": "yes"
+        },
+        {
+          "name": "RandomFox",
+          "url": "https://randomfox.ca/",
+          "description": "Random fox images",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://randomfox.ca/floof/"
+        },
+        {
+          "name": "Shibe.online",
+          "url": "https://shibe.online/",
+          "description": "Random shiba inu, cat, bird images",
+          "auth": "none",
+          "https": true,
+          "cors": "yes"
+        }
+      ]
+    }
+  ]
+}
