@@ -2,7 +2,10 @@
 
 A curated collection of free APIs perfect for testing, learning, and building projects. Most require no authentication.
 
+**Now with MCP Server support for AI Agents!**
+
 ## Table of Contents
+- [For AI Agents](#for-ai-agents)
 - [Weather & Environment](#weather--environment)
 - [Finance & Cryptocurrency](#finance--cryptocurrency)
 - [Entertainment & Media](#entertainment--media)
@@ -13,6 +16,44 @@ A curated collection of free APIs perfect for testing, learning, and building pr
 - [Location & Geography](#location--geography)
 - [Food & Lifestyle](#food--lifestyle)
 - [Animals](#animals)
+
+---
+
+## For AI Agents
+
+This collection includes an **MCP Server** that lets AI agents (Claude, etc.) discover and call these APIs directly.
+
+### Quick Setup (Claude Code)
+
+```bash
+# Install dependencies
+cd mcp-server && pip install -e .
+
+# Add to Claude Code
+claude mcp add free-apis -- python /path/to/free-apis-collection/mcp-server/server.py
+```
+
+### MCP Tools Available
+
+| Tool | Description |
+|------|-------------|
+| `list_categories()` | See all API categories |
+| `list_apis(category, auth_required)` | Filter APIs by category or auth |
+| `search_apis(query)` | Search by keyword |
+| `get_api(name)` | Get full API details |
+| `quick_test(api_name)` | Instantly test a no-auth API |
+| `call_api(url)` | Call any API endpoint |
+| `get_random_api()` | Discover a random API |
+
+### For Vibe Coders
+
+Just tell your AI assistant:
+- *"Get me a random dog image"* → Uses Dog CEO API
+- *"What's Bitcoin worth?"* → Uses CoinDesk API
+- *"I'm bored"* → Uses Bored API
+- *"Tell me a joke"* → Uses Joke API
+
+See [AGENTS.md](AGENTS.md) for full AI agent documentation.
 
 ---
 
