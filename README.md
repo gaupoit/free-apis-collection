@@ -143,6 +143,7 @@ See [AGENTS.md](AGENTS.md) for full AI agent documentation.
 
 | API | URL | Description |
 |-----|-----|-------------|
+| Bucketlist.nl Dream of the Day | https://bucketlist.nl/brand/droom-van-de-dag.openapi.json | One daily travel or life-experience idea; Dutch JSON by default (No Auth) |
 | OpenFoodFacts | https://world.openfoodfacts.org/data | Food products and nutritional data |
 | TheMealDB | https://www.themealdb.com/api.php | Recipes and meal data (No Auth) |
 | TheCocktailDB | https://www.thecocktaildb.com/api.php | Cocktail recipes (No Auth) |

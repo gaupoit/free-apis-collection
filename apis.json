@@ -3,7 +3,7 @@
     "title": "Free APIs Collection",
     "description": "Curated collection of free APIs for developers",
     "version": "1.0.0",
-    "lastUpdated": "2025-01-04",
+    "lastUpdated": "2026-11-01",
     "totalApis": 52
   },
   "categories": [
@@ -410,6 +410,15 @@
       "name": "Food & Lifestyle",
       "slug": "food",
       "apis": [
+        {
+          "name": "Bucketlist.nl Dream of the Day",
+          "url": "https://bucketlist.nl/brand/droom-van-de-dag.openapi.json",
+          "description": "One daily travel or life-experience idea, with image and source URL; Dutch by default",
+          "auth": "none",
+          "https": true,
+          "cors": "yes",
+          "testUrl": "https://bucketlist.nl/api/droom-van-de-dag?lang=nl"
+        },
         {
           "name": "OpenFoodFacts",
           "url": "https://world.openfoodfacts.org/data",
